@@ -1,0 +1,41 @@
+{
+  "name": "Sigopil - Layanan KTP-el & Lacak Kurir Kabupaten Magelang",
+  "short_name": "Sigopil",
+  "description": "Aplikasi Layanan Perekaman KTP Pemula dan Pelacakan Kurir Ekspedisi Real-Time Sigopil Disdukcapil Kabupaten Magelang",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1B365D",
+  "theme_color": "#1B365D",
+  "categories": ["government", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/logo-dukcapil.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-dukcapil.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lacak Status KTP",
+      "short_name": "Lacak Status",
+      "description": "Lacak lokasi kurir pengirim KTP-el",
+      "url": "/?tab=tracking",
+      "icons": [{ "src": "/logo-dukcapil.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tanya Si-Bo AI",
+      "short_name": "Si-Bo AI",
+      "description": "Tanya jawab layanan kependudukan 24 jam",
+      "url": "/?tab=chatbot",
+      "icons": [{ "src": "/logo-dukcapil.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="dukGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Garuda Wing Silhouette / Dukcapil Emblem Shield -->
+  <path d="M50 8 C 70 8, 90 20, 90 40 C 90 68, 50 92, 50 92 C 50 92, 10 68, 10 40 C 10 20, 30 8, 50 8 Z" fill="url(#dukGrad)" stroke="#38BDF8" stroke-width="2"/>
+  <!-- Eagle Symbol / Wings -->
+  <path d="M50 22 L62 38 L76 36 L66 48 L74 62 L50 50 L26 62 L34 48 L24 36 L38 38 Z" fill="url(#goldGrad)" />
+  <!-- Circle Core / Smart Chip -->
+  <circle cx="50" cy="50" r="10" fill="#FFFFFF"/>
+  <rect x="45" y="45" width="10" height="10" rx="2" fill="url(#greenGrad)" />
+</svg>
